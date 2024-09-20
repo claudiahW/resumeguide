@@ -70,9 +70,9 @@ body {
   height: 400px;
 }
 
-#navlogo{
-    width: 200px;
-    height: 30px;
+#navlogo {
+  width: 200px;
+  height: 30px;
 }
 .nav-bar {
   top: 0;
@@ -168,4 +168,35 @@ body {
   width: 20px;
   height: 20px;
   z-index: 1;
+}
+
+/* Services Section */
+
+.services {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.services h1 {
+  margin-bottom: 10px;
+}
+.services-box {
+  background: #f9f9f9;
+  padding: 10px;
+  margin-top: 20px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+.services-box .fa-solid {
+  margin: 0 10px;
+}
+
+.services-box span {
+  margin: 3px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.services-box p {
+  font-size: 15px;
+  margin-top: 20px;
+  color: #777;
 }

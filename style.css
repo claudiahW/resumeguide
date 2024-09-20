@@ -209,3 +209,7 @@ body {
   border-bottom-right-radius: 50px;
   transition: 1s;
 }
+
+.services-box:hover p {
+  color: #fff;
+}

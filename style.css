@@ -59,3 +59,54 @@ body {
     transform: translateY(10px);
   }
 }
+
+/* About Section */
+.about {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.profile-img {
+  height: 400px;
+}
+
+.nav-bar {
+  top: 0;
+  position: sticky;
+  z-index: 2;
+}
+.navbar {
+  background-color: #000;
+}
+.navbar-brand img {
+  height: 250px;
+}
+.nav-bar .fa-bars {
+  font-size: 36px;
+  color: #fff;
+}
+.nav-link {
+  color: #fff !important;
+}
+
+.navbar-toggler {
+  outline: none !important;
+}
+
+.navbar-nav {
+  float: right;
+  text-align: right;
+}
+
+.skills-bar p {
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+.progress {
+  border-radius: 16px;
+  margin-bottom: 10px;
+}
+.progress-bar {
+  border-radius: 16px;
+  background-color: #000 !important;
+}
